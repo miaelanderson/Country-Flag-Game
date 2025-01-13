@@ -21,12 +21,12 @@ class GameManager: ObservableObject {
     }
     func reset() {
         loadQuestions()
-        goToNextQuestion()
         questions = questions.shuffled()
         index = 0
         score = 0
         progress = 0.0
         playingGame = true
+        goToNextQuestion()
     }
     func loadQuestions() {
         let countries = Data().countries
