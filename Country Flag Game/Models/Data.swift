@@ -28,6 +28,11 @@ struct Data {
         "Spain",
         "Sweden",
         "Ukraine",
-        "United States"
+        "United States",
+        "Indonesia",
+        "Iceland",
+        "Japan",
+        "Mongolia",
+        "Denmark"
     ]
 }
